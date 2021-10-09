@@ -89,7 +89,7 @@ namespace pk3DS.Core.Randomizers
         {
             var evos = evo.PossibleEvolutions;
             foreach (EvolutionMethod v in evos)
-            if (v.Method > 0)
+            if (v.Method > 0)   //55896
             {
             {
                 switch (Config.Generation)
